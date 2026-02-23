@@ -302,12 +302,12 @@ PERCEPTION_TASKS = {
         "options": [
             {"label": "جماعة/وقت + سنة + أذكار (كاملة)", "value": "perfect", "xp_pct": 1.0},
             {"label": "الفرض جماعه + السنة فقط", "value": "sunnah", "xp_pct": 0.9},
-            {"label": "الفرض جماعه + الاذكار", "value": "fard", "xp_pct": 0.8},
-            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7},
-            {"label": "الفرض منفرد + اذكار + سنه", "value": "perfect", "xp_pct": 0.5},
-            {"label": "الفرض منفرد + السنة فقط", "value": "sunnah", "xp_pct": 0.4},
-            {"label": "الفرض منفرد + اذكار", "value": "fard", "xp_pct": 0.3},
-            {"label": "الفرض منفرد", "value": "fard", "xp_pct": 0.2},
+            {"label": "الفرض جماعه + الاذكار", "value": "fard+1", "xp_pct": 0.8},
+            {"label": "الفرض جماعه", "value": "fard", "xp_pct": 0.7},
+            {"label": "الفرض منفرد + اذكار + سنه", "value": "perfect-1", "xp_pct": 0.5},
+            {"label": "الفرض منفرد + السنة فقط", "value": "sunnah-1", "xp_pct": 0.4},
+            {"label": "الفرض منفرد + اذكار", "value": "fard-1", "xp_pct": 0.3},
+            {"label": "الفرض منفرد", "value": "fard-2", "xp_pct": 0.2},
             {"label": "قضاء / متأخر ⚠️", "value": "late", "xp_pct": 0.1}
         ]
     },

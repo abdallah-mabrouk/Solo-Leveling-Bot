@@ -303,7 +303,7 @@ PERCEPTION_TASKS = {
             {"label": "جماعة/وقت + سنة + أذكار (كاملة)", "value": "perfect", "xp_pct": 1.0},
             {"label": "الفرض جماعه + السنة فقط", "value": "sunnah", "xp_pct": 0.9},
             {"label": "الفرض جماعه + الاذكار", "value": "fard", "xp_pct": 0.8},
-            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7}
+            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7},
             {"label": "الفرض منفرد + اذكار + سنه", "value": "perfect", "xp_pct": 0.5},
             {"label": "الفرض منفرد + السنة فقط", "value": "sunnah", "xp_pct": 0.4},
             {"label": "الفرض منفرد + اذكار", "value": "fard", "xp_pct": 0.3},
@@ -330,7 +330,7 @@ PERCEPTION_TASKS = {
             {"label": "جماعة/وقت + سنة + أذكار (كاملة)", "value": "perfect", "xp_pct": 1.0},
             {"label": "الفرض جماعه + السنة فقط", "value": "sunnah", "xp_pct": 0.9},
             {"label": "الفرض جماعه + الاذكار", "value": "fard", "xp_pct": 0.8},
-            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7}
+            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7},
             {"label": "الفرض منفرد + اذكار + سنه", "value": "perfect", "xp_pct": 0.5},
             {"label": "الفرض منفرد + السنة فقط", "value": "sunnah", "xp_pct": 0.4},
             {"label": "الفرض منفرد + اذكار", "value": "fard", "xp_pct": 0.3},
@@ -364,7 +364,7 @@ PERCEPTION_TASKS = {
             {"label": "جماعة/وقت + سنة + أذكار (كاملة)", "value": "perfect", "xp_pct": 1.0},
             {"label": "الفرض جماعه + السنة فقط", "value": "sunnah", "xp_pct": 0.9},
             {"label": "الفرض جماعه + الاذكار", "value": "fard", "xp_pct": 0.8},
-            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7}
+            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7},
             {"label": "الفرض منفرد + اذكار + سنه", "value": "perfect", "xp_pct": 0.5},
             {"label": "الفرض منفرد + السنة فقط", "value": "sunnah", "xp_pct": 0.4},
             {"label": "الفرض منفرد + اذكار", "value": "fard", "xp_pct": 0.3},
@@ -383,7 +383,7 @@ PERCEPTION_TASKS = {
             {"label": "جماعة/وقت + سنة + أذكار (كاملة)", "value": "perfect", "xp_pct": 1.0},
             {"label": "الفرض جماعه + السنة فقط", "value": "sunnah", "xp_pct": 0.9},
             {"label": "الفرض جماعه + الاذكار", "value": "fard", "xp_pct": 0.8},
-            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7}
+            {"label": "الفرض جماعه", "value": "late", "xp_pct": 0.7},
             {"label": "الفرض منفرد + اذكار + سنه", "value": "perfect", "xp_pct": 0.5},
             {"label": "الفرض منفرد + السنة فقط", "value": "sunnah", "xp_pct": 0.4},
             {"label": "الفرض منفرد + اذكار", "value": "fard", "xp_pct": 0.3},

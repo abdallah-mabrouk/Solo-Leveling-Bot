@@ -1,0 +1,45 @@
+name: solo_leveling_project
+version: '3.8'
+
+services:
+  discord-bot:
+    build: .
+    container_name: solo_leveling_bot
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    environment:
+      - TZ=Africa/Cairo
+      - PYTHONUNBUFFERED=1
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - solo-network
+
+networks:
+  solo-network:
+    driver: bridge
+
+# هذا هو الجزء الذي كان ينقصك لكي يتعرف CasaOS على الخدمة
+x-casaos:
+  author: self
+  category: self
+  hostname: ""
+  # وضعت لك أيقونة ديسكورد افتراضية، يمكنك تغيير الرابط
+  icon: https://cdn-icons-png.flaticon.com/512/5968/5968756.png
+  index: /
+  is_uncontrolled: false
+  # هنا تم تحديد البورت الخارجي لكي يفتح عند الضغط على الأيقونة
+  port_map: "8081"
+  scheme: http
+  store_app_id: solo_leveling_bot
+  title:
+    en_us: Solo Leveling Bot
